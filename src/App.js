@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
+        <header className="App-heade>r">
           <img src={pic} className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload.
