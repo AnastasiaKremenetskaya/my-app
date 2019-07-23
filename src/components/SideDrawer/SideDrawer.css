@@ -1,6 +1,6 @@
 .side-drawer {
     height: 100%;
-    background: white;
+    background: rgba(228, 80, 0, 0.541);
     box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
     position: fixed;
     top: 0;
@@ -16,14 +16,24 @@
     transform: translateX(0);
   }
 
-  .side-drawer ul {
+  .side-drawer li {
+    margin:0 0 15px 0;   
+ }
+  .side-drawer ul{
+      margin-top: 50%;
       height: 100%;
       list-style: none;
   }
+  .side-drawer a {
+
+    border-spacing: 20px;
+    color: brown;
+    text-decoration: none;
+}
 
   .side-drawer a:hover,
   .side-drawer a:active {
-      color: brown;
+      color: gold;
   }
 
   /* @media (min-width: 769px){

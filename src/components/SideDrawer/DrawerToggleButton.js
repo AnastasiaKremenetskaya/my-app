@@ -9,4 +9,4 @@ const drawerToggleButton = props => (
     </button>
   )
   
-  export default drawerToggleButton
+export default drawerToggleButton

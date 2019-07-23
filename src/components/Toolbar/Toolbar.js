@@ -5,21 +5,21 @@ import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
 
 const toolbar = props => (
   <header className="toolbar">
-    <nav className="toolbar__navigation">
+    <nav className="toolbar_navigation">
       <div className="toolbar_toggle-button">
           <DrawerToggleButton click={props.drawerClickHandler}/>
-      </div>
-      <div className="toolbar__logo">
-        <a href="/">THE LOGO</a>
       </div>
       <div className="spacer" />
       <div className="toolbar_navigation-items">
         <ul>
           <li>
-            <a href="/">Products</a>
+            <a href="/">Формула Бернулли</a>
           </li>
           <li>
-            <a href="/">Users</a>
+            <a href="/">Полиномиальная формула</a>
+          </li>
+          <li>
+            <a href="/">Интегральная теорема Муавра-Лапласа</a>
           </li>
         </ul>
       </div>

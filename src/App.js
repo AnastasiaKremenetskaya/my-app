@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-//import pic from './Formula.png';
+import pic from './Formula.png';
 import './App.css';
-import './components/Bernulle.js'
+//import Bernulle from './components/Bernulle.js'
 import Toolbar from './components/Toolbar/Toolbar';
 import SideDrawer from './components/SideDrawer/SideDrawer'
 import Backdrop from './components/Backdrop/Backdrop'
@@ -30,9 +30,10 @@ class App extends Component {
       <div style={{height: '100%'}}>
         <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
         <SideDrawer show={this.state.sideDrawerOpen} />
+        <pic />
         {backdrop}
         <main style={{ marginTop: '64px' }}>
-          <p>This is the page content!</p>
+          <p></p>
         </main>
       </div>
     )
